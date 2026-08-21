@@ -1,0 +1,19 @@
+# UI
+# Gradio provides the local web interface and event handlers.
+gradio>=4.44,<6
+
+# YouTube transcript extraction
+# Version 1.x supports the YouTubeTranscriptApi().list(...).fetch() flow used in ytbot.py.
+youtube-transcript-api>=1.2,<2
+
+# LangChain orchestration and text chunking
+langchain>=0.3,<1
+langchain-text-splitters>=0.3,<1
+langchain-community>=0.3,<1
+langchain-ibm>=0.3,<1
+
+# IBM watsonx.ai SDK
+ibm-watsonx-ai>=1.3,<2
+
+# Local vector similarity search
+faiss-cpu>=1.8,<2
